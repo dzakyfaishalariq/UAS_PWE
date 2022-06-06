@@ -6,13 +6,15 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| TUBES UAS WEB PWE
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
+|Anggota :
+|1. Dzaky Faishalariq
+|2. Robby Mahendra
+|3. Wiki Netra Juansyah
+|4. Nabila Aulya Zalfa putri
+|5. Wiwit Selasti
 */
 
 Route::get('/', function () {
