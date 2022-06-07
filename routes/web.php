@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |3. Wiki Netra Juansyah
 |4. Nabila Aulya Zalfa putri
 |5. Wiwit Selasti
+|6. M.Jumli Gazali
 */
 
 Route::get('/', function () {
@@ -22,7 +23,7 @@ Route::get('/', function () {
     if (request()->has('cari')) {
         $dataBarang = dataBarang::where('nama_barang', 'LIKE', '%' . request('cari') . '%')->get();
     } else {
-        $dataBarang = dataBarang::all();
+        $dataBarang = dataBarang::latest()->get();
     }
     //mengambil total harga barang di dataBrang
     $totalHarga = 0;

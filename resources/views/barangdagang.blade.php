@@ -76,10 +76,10 @@
                         <h4>Data Barang</h4>
                     </div>
                     <div class="card-body">
-                        <div class="row">
+                        <div class="row d-flex">
                             @foreach($dataBarang as $brg)
-                            <div class="col-4">
-                                <div class="card" style="width: 18rem;">
+                            <div class="col-4 flex-col">
+                                <div class="card" >
                                     <img src="https://source.unsplash.com/500x400?{{ $brg->nama_barang }}" class="card-img-top" alt="{{ $brg->nama_barang }}">
                                     <div class="card-body">
                                     <h5 class="card-title">{{ $brg->nama_barang }}</h5>
