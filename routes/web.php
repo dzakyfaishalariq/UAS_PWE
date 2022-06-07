@@ -12,10 +12,9 @@ use Illuminate\Support\Facades\Route;
 |Anggota :
 |1. Dzaky Faishalariq
 |2. Robby Mahendra
-|3. Wiki Netra Juansyah
-|4. Nabila Aulya Zalfa putri
-|5. Wiwit Selasti
-|6. M.Jumli Gazali
+|3. Nabila Aulya Zalfa putri
+|4. Wiwit Selasti
+|5. M.Jumli Gazali
 */
 
 Route::get('/', function () {
